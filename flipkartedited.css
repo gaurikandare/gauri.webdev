@@ -1,0 +1,231 @@
+header ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 5px;
+}
+
+ul {
+    height: 9px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-inline-start: 450px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: left;
+}
+
+.logo img {
+    width: 200px;
+    height: 50px;
+    padding-right: 30px;
+}
+
+header a {
+    font-weight: bolder;
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+}
+
+img {
+    height: 28px;
+    width: 28px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.search input {
+    width: 400px;
+    ;
+    padding: 8px;
+    font-size: 14px;
+
+}
+
+.search button {
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(70, 68, 68);
+}
+
+.container {
+    min-height: calc(100vh - 25vh - 25vh);
+}
+
+.slider {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100vw;
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/54f94d29aa080c9c.jpg?q=20");
+    background-repeat: no-repeat;
+    animation-name: myanimation;
+    animation-timing-function: 6s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    background-size: 100%;
+}
+
+@keyframes myanimation {
+    0% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/f8dae5ce006b7d54.jpg?q=20");
+    }
+
+    20% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/766ea612e03ff01d.jpg?q=20");
+    }
+
+    40% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/f454b1f18e9ea9d3.jpg?q=20");
+    }
+
+    60% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/ba7f29f7ecb4c88b.jpg?q=20");
+    }
+
+    80% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/a6d74b7e7af9bcdc.jpg?q=20");
+    }
+
+    100% {
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/f454b1f18e9ea9d3.jpg?q=20");
+    }
+
+}
+
+.image-wrapper img {
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+p {
+    display: inline-block;
+    font-size: larger;
+    /*background-color: rgb(177, 166, 166);*/
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.carditems {
+    display: flex;
+    padding-left: 825px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+}
+.carditems img {
+    width: 210px;
+    height: 200px;
+    padding-right: 5px;
+    
+}
+.lines p {
+    display: flex;
+    padding-left: 3vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: 300;
+    justify-content: center;
+    flex-direction: column
+}
+.carditems1 {
+    display: flex;
+    padding-left: 780px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+
+}
+.carditems1 img {
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    padding-right: 25px;
+    
+}
+.flight img {
+    width: 100vw;
+    height: 35vh;
+    padding-top: 40px;
+}
+
+.carditems2 {
+    display: flex;
+    padding-left: 780px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+
+}
+.carditems2 img {
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    padding-right: 25px;
+    
+    
+}
+.footerspace{
+    padding-bottom: 50px;
+}
+
+footer {
+   display: grid;
+   grid-template-columns: 6fr 6fr;
+   background-color: white;
+   color: black;
+   padding-top: 30px;
+   font-weight:bolder;
+   background-color: gray;
+   
+}
+.left-panel{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    justify-content:center;
+}
+.right-panel{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    border-left: 2px solid white;
+    padding-left: 20px;
+    justify-content: center;
+
+}
+footer-title{
+    color:silver;
+    margin-bottom:30px;
+
+
+}
