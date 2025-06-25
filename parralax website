@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="pimg1">
+        <div class="ptext">
+            <span class="textbg">Parallax Website...</span>
+        </div>
+    </section>
+    <section class="section-light">
+        <h2>All About Beauty Of Nature</h2>
+        <p>Nature can refer to the general realm of living beings, and in some cases to the processes associated
+            with inanimate objects—the way that particular types of things exist and change of their own accord,
+            such as the weather and geology of the Earth. It is often taken to mean the "natural environment" or
+            wilderness—wild animals, rocks, forest, and in general those things that have not been substantially
+            altered by human intervention, or which persist despite human intervention. For example, manufactured
+            objects and human interaction generally are not considered part of nature, unless qualified as, for
+            example, "human nature" or "the whole of nature". This more traditional concept of natural things that can
+            still be found today implies a distinction between the natural and the artificial, with the artificial being
+            understood as that which has been brought into being by a human consciousness or a human mind. Depending on
+            the particular context, the term "natural" might also be distinguished from the unnatural or the
+            supernatural </p>
+    </section>
+    <section class="pimg2">
+        <div class="ptext2">
+            <span class="textbg2">Explore Nature</span>
+        </div>
+    </section>
+    <section class="section-dark">
+        <h2>Nature</h2>
+        <p>Nature is a common notion, which everyone is familiar with as long as we are not asked to define it. This is
+            normal: there is no consensus definition of it, and the term is rejected by most academic disciplines in
+            both the sciences and the humanities. Yet it stays, and even better: it is eminently political – and even
+            more so at a time when the idea of “protecting nature” is pressing. In this article, we attempt to unravel
+            its mysteries, tracing its origin, its evolution and the succession of issues in which it has found itself
+            in a central position. The aim is to identify the different realities it embraces, and the particular ways
+            in which we relate to them in the era of global crises.</p>
+    </section>
+    <section class="pimg3">
+        <div class="ptext3">
+            <span class="textbg3">Look Deep Into Nature</span>
+        </div>
+    </section>
+    <section class="section-abc">
+        <h2>How To Save Environment</h2>
+        <p>Saving the environment might seem like a tall order, but living an environmentally friendly life is actually
+            quite easy. With just a few small lifestyle changes, you can protect the planet while creating a healthier
+            life for yourself and future generations. A single household or individual can make a big difference: the
+            more people become environmentally conscious, the healthier our planet will be. Read on for a comprehensive
+            list of tips on how you can save the environment at home. </p>
+    </section>
+        </div>
+        <section class="pimg4">
+        <div class="ptext4">
+            <span class="textbg4"> More About Nature</span>
+        </div>
+    </section>
+
+
+
+    CSS
+    body{
+    margin: 0;
+    padding: 3px;
+} 
+.pimg1{
+    background-image: url('images/image1 (1).png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: normal;
+    text-transform: uppercase;}
+
+.textbg{
+    background-color: rgb(118, 230, 118);
+}
+.section-light{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(178, 245, 161);
+    color: rgb(66, 53, 53);    
+    font-size: larger;
+}
+.pimg2{
+    background-image: url('images/image2.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+     background-attachment: fixed;
+}
+.ptext2{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    font-size: 40px;
+   }
+.textbg2{
+    background-color: rgb(136, 156, 90);
+}
+.section-dark{
+   text-align: center;
+    align-items: center;
+    background-color: rgb(210, 228, 50);
+    color: rgb(66, 53, 53);    
+    font-size: larger; 
+}
+.pimg3{
+    background-image: url('images/image3.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+     background-attachment: fixed;
+}
+.ptext3{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    font-size: 40px;
+   }
+   .textbg3{
+    background-color: rgb(14, 44, 18);
+   }    
+.section-abc{
+   text-align: center;
+    align-items: center;
+    background-color: rgb(144, 245, 85);
+    color: rgb(26, 24, 24);    
+    font-size: larger; 
+}
+.pimg4{
+    background-image: url('images/image1 (1).png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+.ptext4{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    font-size: 40px;
+}
+.textbg4{
+    background-color: rgb(14, 44, 18);
+   }    
+    
